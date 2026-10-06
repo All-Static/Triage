@@ -11,3 +11,19 @@ config.yml
 !.env.example
 .vscode/
 
+# Python environments, caches and local integration output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+config.yaml
+credentials.*
+secrets.*
+*.pem
+*.key
+backend/data/
+backend/output/
+backend/config.*
+backend/tokens.*
+
