@@ -47,7 +47,7 @@ export default function App() {
               <Layers size={23} />
             </span>
             <span>
-              Triage<span className="brand-sub">ASSISTANT</span>
+              Triage Tool<span className="brand-sub"></span>
             </span>
           </Link>
           <div className="nav-label">WORKSPACE</div>
@@ -64,17 +64,6 @@ export default function App() {
               </NavLink>
             ))}
           </nav>
-          <div className="sidebar-bottom">
-            <div className="sidebar-footer">
-              <span className="avatar">
-                <Layers size={16} />
-              </span>
-              <div>
-                Triage workspace<small>Existing Python tool</small>
-              </div>
-              <PanelLeftClose size={16} />
-            </div>
-          </div>
         </aside>
         <div className="main-shell">
           <header className="header">
@@ -126,12 +115,6 @@ export default function App() {
               />
             </Routes>
           </main>
-          <footer className="main-footer">
-            <span>
-              Triage Assistant <span className="footer-separator">·</span> A
-              little clarity for every build.
-            </span>
-          </footer>
         </div>
       </div>
     </ProjectContext.Provider>

@@ -92,9 +92,9 @@ export default function Dashboard() {
   return (
     <>
       <PageHeading
-        eyebrow="YOUR ENGINEERING WORKSPACE"
+        eyebrow="putting a placeholder here idk to write(might not need)"
         title="Run Triage"
-        description="Run the existing Python triage tool and access its Excel output."
+        description="also dont know what to write yet(might not need)"
       />
       <section className="analysis-panel">
         <div className="analysis-intro">

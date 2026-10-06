@@ -58,7 +58,7 @@ export default function Settings() {
       <PageHeading
         eyebrow="TOOL SETUP"
         title="Configuration"
-        description="Configuration for the existing Python triage tool."
+        description="put a description later idk what to write yet"
       />
       {!config ? (
         error ? (
